@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio</title>
+  <script src="https://kit.fontawesome.com/54ac5e1b41.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <label class="logo"><span>P</span>rasanna Achar</label>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <i class="fas fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX DESIGNER</p>
+        <H1>Hi, i'm <span>Prasanna Achar</span><br> From Udupi</H1>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="blure image.jpg" alt="user">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About Me</h1>
+          <p>Passionate Software Enthusiast Eager to Contribute and Learn.I aspire to work in an organization that will
+            enable me to effectively contribute my skill and that provides good opportunity for growth and recognizes my
+            performance.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>ui/ux</span><br>Designing Website</li>
+              <li><span>Web Developer</span><br>Website Development</li>
+              <li><span>Photoshop</span><br>Editing</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>2017- Current</span><br>Carpenter Wood Design</li>
+              <!-- <li><span>Web Development</span><br>Website Development</li>
+                <li><span>Photoshop</span><br>Editing</li> -->
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2016</span><br>Govt High School Brahmavar Udupi Taluk</li>
+              <li><span>Govt.ITI,Bidkalkatte</span><br>Electronics Mechanics And Communications</li>
+              <!-- <li><span>Photoshop</span><br>Editing</li> -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------ services -------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="subtitle">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web design</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum velit esse saepe vitae itaque tempore
+            eveniet suscipit hic id! Dolore saepe minima, molestiae quibusdam ut corrupti voluptatem doloribus ipsam
+            fugiat!</p>
+          <a href="l#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>ui/ux design</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum velit esse saepe vitae itaque tempore
+            eveniet suscipit hic id! Dolore saepe minima, molestiae quibusdam ut corrupti voluptatem doloribus ipsam
+            fugiat!</p>
+          <a href="l#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-pen"></i>
+          <h2>Photoshop Editing</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum velit esse saepe vitae itaque tempore
+            eveniet suscipit hic id! Dolore saepe minima, molestiae quibusdam ut corrupti voluptatem doloribus ipsam
+            fugiat!</p>
+          <a href="l#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---------------- mywork portfolio--------------------------->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="social media app design.png" alt="work">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you to the talented people around the world. download it from play store</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="game console dessign.jpg" alt="work">
+          <div class="layer">
+            <h3>Game Console Website</h3>
+            <p>The subtle textures on the grips provide a comfortable and secure hold, ensuring hours of fatigue-free
+              gaming. Haptic Feedback and Adaptive Triggers.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="UI DESIGN.png" alt="work">
+          <div class="layer">
+            <h3>Nike Shoes Website</h3>
+            <p>Nike is a global brand that specializes in providing quality sportswear and equipment to people around
+              the world.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- contact informationn -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>prasannaacharr@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i>9591374650</p>
+
+          <div class="social-icons">
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.behance.net/prasannaachar1"><i class="fa-brands fa-behance"></i></a>
+            <a
+              href="https://www.linkedin.com/in/prasanna-achar-a0b353202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk4YwOD3HSTiaFfOH1XrEqA%3D%3D"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="Resume prasanna achar.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder=" Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright &#169 Prasanna Achar .<i class="fa-solid fa-heart"></i> </p>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+
+
+  </script>
+
+  <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbw3TpGCDBQ8Xs9ZvFG_Pi9PCbhDCJ5hS4FdjYuSEet5qhmggTt5O0Z9yIem0I9jUhyg/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message Sent Successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
